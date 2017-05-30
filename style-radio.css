@@ -1,40 +1,50 @@
 body {
-    background-color: blue;
-    color: white;
+    background-color: white;
+    font-family: 'Monaco', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: silver;
 }
 
 #wrapper {
     width: 100%;
     min-width: 100px;
-    max-width: 800px;
+    max-width: 853px;
     margin: 0px auto;
     padding: 1 1 1 1;
-   
+    opacity: 0.9;
 }
 
-
+#hr,
+hr {
+    border: none; 
+    background-color: black; 
+    color: black;
+    height: 30px;
+   }
 
 
 h1 {
     font-family: 'Monaco', sans-serif;
-    font-weight: 900;
-    font-size: 100px;
-    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
 }
 
 p {
     font-family: 'Monaco', sans-serif;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 1.4em;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
 }
 
 a {
-    color: white;
+   
     text-decoration: none;
-    font-family: 'Monaco';
-    font-weight: 400;
-    font-size: 27px;
+    font-family: 'Monaco', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
 }
 
 ol li {
@@ -50,16 +60,18 @@ ol li a {
 }
 
 li.playing {
-    color: white;
+    
     font-family: 'Monaco', sans-serif;
-    font-weight: 400;
-    font-size: 27px;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
 }
 
 li.playing a {
     font-family: 'Monaco', sans-serif;
-    font-weight: 400;
-    font-size: 27px;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
 }
 
     
