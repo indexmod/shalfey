@@ -1,5 +1,5 @@
 body {
-    color: #fefefa;    
+    color: blue;    
 }
 
 #wrapper {
@@ -11,33 +11,27 @@ body {
     opacity: 0.9;
 }
 
-#hr,
-hr {
-    border: none; 
-    background-color: red; 
-    color: red;
-    height: 20px;
-   }
+
 
 
 h1 {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Monaco', sans-serif;
     font-weight: 900;
     font-size: 60px;
-    color: black;
+    color: white;
 }
 
 p {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Monaco', sans-serif;
     font-weight: 400;
     font-size: 19px;
     line-height: 1.4em;
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
-    font-family: 'Helvetica Neue';
+    font-family: 'Monaco';
     font-weight: 400;
     font-size: 27px;
 }
@@ -55,14 +49,14 @@ ol li a {
 }
 
 li.playing {
-    color: black;
-    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+    font-family: 'Monaco', sans-serif;
     font-weight: 400;
     font-size: 27px;
 }
 
 li.playing a {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Monaco', sans-serif;
     font-weight: 400;
     font-size: 27px;
 }
