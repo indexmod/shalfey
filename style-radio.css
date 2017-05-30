@@ -1,6 +1,9 @@
 body {
-    color: white;
     background-color: white;
+    font-family: 'Monaco', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: silver;
 }
 
 #wrapper {
