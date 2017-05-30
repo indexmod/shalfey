@@ -1,6 +1,6 @@
 body {
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #wrapper {
@@ -17,29 +17,29 @@ body {
 
 h1 {
     font-family: 'Monaco', sans-serif;
-    font-weight: 900;
-    font-size: 100px;
-    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
 }
 
 p {
     font-family: 'Monaco', sans-serif;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 1.4em;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1em;
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Monaco';
-    font-weight: 400;
-    font-size: 27px;
+    font-weight: 200;
+    font-size: 20px;
 }
 
 ol li {
     position: relative;
-    margin: 1px;
+    margin: 0px;
     padding: 9px 2px 10px;
     cursor: pointer;
 }
@@ -50,16 +50,17 @@ ol li a {
 }
 
 li.playing {
-    color: white;
+    color: black;
     font-family: 'Monaco', sans-serif;
-    font-weight: 400;
-    font-size: 27px;
+    font-weight: 200;
+    font-size: 20px;
 }
 
 li.playing a {
+    color: black;
     font-family: 'Monaco', sans-serif;
-    font-weight: 400;
-    font-size: 27px;
+    font-weight: 200;
+    font-size: 20px;
 }
 
     
