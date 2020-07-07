@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
+
 body {
-    background-color: navy;
-    font-family: 'Lucida Console, Monaco', sans-serif;
+    background-color: grey;
+    font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: silver;
+    color: #99AAB5;
 }
 
 #wrapper {
-    width: 90%;
+    width: 100%;
     min-width: 100px;
     max-width: 853px;
     margin: 0px auto;
@@ -18,33 +21,33 @@ body {
 #hr,
 hr {
     border: none;
-    background-color: silver;
+    background-color: #99AAB5;
     color: violet;
     height: 1px;
    }
 
 
 h1 {
-    font-family: 'Lucida Console, Monaco';
+    font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: silver;
+    color: #99AAB5;
 }
 
 p {
-    font-family: 'Lucida Console, Monaco';
+    font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: silver;
+    color: #99AAB5;
 }
 
 a {
 
     text-decoration: none;
-    font-family: 'Lucida Console, Monaco';
+    font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: silver;
+    color: #99AAB5;
 }
 
 ol li {
@@ -61,15 +64,32 @@ ol li a {
 
 li.playing {
 
-    font-family: 'Lucida Console, Monaco';
+    font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: silver;
+    color: #99AAB5;
 }
 
 li.playing a {
-    font-family: 'Lucida Console, Monaco';
+    font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: silver;
+    color: #99AAB5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: left;
+}
+.grid img {
+  border: 0px;
+  max-width: 100%;
+}
+img {
+  max-width: 99%;
+  min-width: 99%;
+  height: auto;
+  margin: 0em 0em 0em 0em;
 }
