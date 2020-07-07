@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: grey;
+    background-color: #202020;
     font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
@@ -13,7 +13,7 @@ body {
     width: 100%;
     min-width: 100px;
     max-width: 853px;
-    margin: 0px auto;
+    margin: 10px auto;
     padding: 1 1 1 1;
     opacity: 0.9;
 }
@@ -21,9 +21,9 @@ body {
 #hr,
 hr {
     border: none;
-    background-color: #99AAB5;
-    color: violet;
-    height: 1px;
+    background-color: #202020;
+    color: navy;
+    height: 2px;
    }
 
 
@@ -79,8 +79,8 @@ li.playing a {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   align-items: left;
 }
 .grid img {
