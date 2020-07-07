@@ -11,10 +11,10 @@ body {
 
 #wrapper {
     width: 100%;
-    min-width: 100px;
-    max-width: 853px;
+    min-width: 350px;
+    max-width: 1000px;
     margin: 20px auto;
-    padding: 1 1 1 1;
+    padding: 5 5 5 5;
     opacity: 0.9;
 }
 
