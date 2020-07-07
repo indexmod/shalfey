@@ -1,13 +1,13 @@
 body {
-    background-color: white;
-    font-family: 'Verdana', sans-serif;
+    background-color: navy;
+    font-family: 'Lucida Console, Monaco', sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 30px;
     color: silver;
 }
 
 #wrapper {
-    width: 100%;
+    width: 90%;
     min-width: 100px;
     max-width: 853px;
     margin: 0px auto;
@@ -18,33 +18,33 @@ body {
 #hr,
 hr {
     border: none;
-    background-color: black;
+    background-color: silver;
     color: violet;
     height: 1px;
    }
 
 
 h1 {
-    font-family: 'Monaco', sans-serif;
+    font-family: 'Lucida Console, Monaco';
     font-weight: 500;
-    font-size: 25px;
-    color: black;
+    font-size: 30px;
+    color: silver;
 }
 
 p {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Lucida Console, Monaco';
     font-weight: 500;
-    font-size: 25px;
-    color: black;
+    font-size: 30px;
+    color: silver;
 }
 
 a {
 
     text-decoration: none;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Lucida Console, Monaco';
     font-weight: 500;
-    font-size: 25px;
-    color: black;
+    font-size: 30px;
+    color: silver;
 }
 
 ol li {
@@ -61,15 +61,15 @@ ol li a {
 
 li.playing {
 
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Lucida Console, Monaco';
     font-weight: 500;
-    font-size: 25px;
-    color: black;
+    font-size: 30px;
+    color: silver;
 }
 
 li.playing a {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Lucida Console, Monaco';
     font-weight: 500;
-    font-size: 25px;
-    color: black;
+    font-size: 30px;
+    color: silver;
 }
