@@ -43,6 +43,7 @@
     <link href="style-radio.css" rel="stylesheet" type="text/css">
     <script src="/audio/jquery.js"></script>
     <script src="/audiojs/audio.js"></script>
+
     <script>
         $(function() {
             // Setup the player to autoplay the next track
@@ -55,11 +56,13 @@
                     audio.play();
                 }
             });
+
             // Load in the first track
             var audio = a[0];
             first = $('ol a').attr('data-src');
             $('ol li').first().addClass('playing');
             audio.load(first);
+
             // Load in a track on click
             $('ol li').click(function(e) {
                 e.preventDefault();
@@ -125,7 +128,7 @@
           <li><a data-src="/radio/Song-4.mp3">Free music archive / Unknown (2019)</a> </li>
           <li><a data-src="/radio/Song-5.mp3">Free music archive / Unknown (2019)</a> </li>
         </ol>
-        
+
     <p><a href=" https://metrika.yandex.ru/dashboard?id=65449639
 ">Посмотрите статистику радио</a></p>
 <p><a href=" https://www.facebook.com/groups/shalfeyradio.ga
