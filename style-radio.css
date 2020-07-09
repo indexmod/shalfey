@@ -67,14 +67,14 @@ li.playing {
     font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: #99AAB5;
+    color: blue;
 }
 
 li.playing a {
     font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-size: 30px;
-    color: #99AAB5;
+    color: blue;
 }
 
 .grid {
