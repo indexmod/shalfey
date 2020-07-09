@@ -11,20 +11,12 @@ body {
 
 #wrapper {
     width: 100%;
-    min-width: inherit;
-    max-width: inherit;
-    margin: 10 10 10 10;
+    min-width: 850px;
+    max-width: 900px;
+    margin: 20px auto;
     padding: 5 5 5 5;
     opacity: 0.9;
 }
-
-#hr,
-hr {
-    border: none;
-    background-color: #202020;
-    color: navy;
-    height: 2px;
-   }
 
 
 h1 {
@@ -86,10 +78,4 @@ li.playing a {
 .grid img {
   border: 0px;
   max-width: 100%;
-}
-img {
-  max-width: 99%;
-  min-width: 99%;
-  height: auto;
-  margin: 0em 0em 0em 0em;
 }
